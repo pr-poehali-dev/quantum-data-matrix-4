@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Преимущества
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Почему выбирают нас</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Экономия до 40%",
+              description: "Умное расписание и датчики присутствия автоматически снижают расход электроэнергии",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Управление со смартфона",
+              description: "Приложение для iOS и Android: включайте обогрев по дороге домой, не выходя из постели",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Безопасность",
+              description: "Защита от перегрева, опрокидывания и перегрузки сети. Сертифицировано в России",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Быстрая доставка",
+              description: "Доставка по всей России от 1 дня. Бесплатная установка и настройка в Москве",
               direction: "bottom",
             },
           ].map((service, i) => (

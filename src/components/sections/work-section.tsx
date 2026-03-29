@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Модели
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши обогреватели</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "ТеплоУм Стандарт",
+              category: "До 25 м² · Wi-Fi · 1500 Вт",
+              year: "5 990 ₽",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "ТеплоУм Про",
+              category: "До 40 м² · Wi-Fi + Bluetooth · 2500 Вт",
+              year: "8 990 ₽",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "ТеплоУм Макс",
+              category: "До 60 м² · Голосовое управление · 3500 Вт",
+              year: "12 990 ₽",
               direction: "left",
             },
           ].map((project, i) => (
